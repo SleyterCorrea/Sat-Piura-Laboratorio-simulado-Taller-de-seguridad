@@ -1,0 +1,93 @@
+# ============================================================
+# docker-compose.yml — LABORATORIO SAT-LAB OWASP Top 10
+# Dominio simulado: satp-laboratorio.local
+# ============================================================
+# INSTRUCCIONES:
+#   Levantar   : docker compose up -d --build
+#   Ver logs   : docker compose logs -f web
+#   Detener    : docker compose down
+#   Reset BD   : docker compose down -v && docker compose up -d --build
+# ============================================================
+
+services:
+
+  # ─────────────────────────────────────────────────────────
+  # SERVICIO WEB: Apache + PHP 8.0
+  # Puerto 8080 del host → Puerto 80 del contenedor
+  # DocumentRoot: ./web  →  /var/www/html
+  # ─────────────────────────────────────────────────────────
+  web:
+    image: php:8.0-apache
+    container_name: sat_web
+    ports:
+      - "8080:80"
+      # Puerto 2222: simula SSH expuesto — vector de reconocimiento
+      - "2222:22"
+    volumes:
+      # Carpeta local ./lamp mapeada al DocumentRoot del servidor
+      - ./lamp:/var/www/html
+      # Configuración Apache del laboratorio (Slowloris / hardening)
+      - ./lamp/apache2_lab.conf:/etc/apache2/conf-available/lab.conf
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - sat_network
+    environment:
+      DB_HOST: db
+      DB_NAME: sat_lab
+      DB_USER: appuser
+      DB_PASS: apppassword
+    # Instalar extensiones PDO/MySQLi necesarias
+    command: >
+      bash -c "docker-php-ext-install pdo pdo_mysql mysqli &&
+               a2enmod rewrite &&
+               a2enconf lab 2>/dev/null || true &&
+               apache2-foreground"
+    restart: unless-stopped
+
+  # ─────────────────────────────────────────────────────────
+  # SERVICIO DB: MySQL 5.7
+  # Puerto 3306 EXPUESTO al host (intencional para el lab)
+  # Inicializado automáticamente con database.sql
+  # ─────────────────────────────────────────────────────────
+  db:
+    image: mysql:5.7
+    container_name: sat_db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: sat_lab
+      MYSQL_USER: appuser
+      MYSQL_PASSWORD: apppassword
+    ports:
+      # INTENCIONAL: expuesto para demostración de reconocimiento de puertos
+      - "3306:3306"
+    volumes:
+      # Script de inicialización de la base de datos
+      - ./database.sql:/docker-entrypoint-initdb.d/database.sql
+      # Volumen persistente para los datos
+      - db_data:/var/lib/mysql
+    networks:
+      - sat_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-prootpassword"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+    restart: unless-stopped
+
+# ─────────────────────────────────────────────────────────
+# RED INTERNA DE DOCKER
+# Los contenedores se comunican por nombre de servicio
+# ─────────────────────────────────────────────────────────
+networks:
+  sat_network:
+    driver: bridge
+    name: sat_lab_network
+
+# ─────────────────────────────────────────────────────────
+# VOLÚMENES NOMBRADOS
+# ─────────────────────────────────────────────────────────
+volumes:
+  db_data:
+    name: sat_lab_db_data

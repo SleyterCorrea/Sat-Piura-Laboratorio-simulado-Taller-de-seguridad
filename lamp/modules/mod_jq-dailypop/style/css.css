@@ -1,0 +1,116 @@
+/**
+ * @package 	Module JQuery Daily Pop
+ * @version 	1.7
+ * @author 		Yannick Tanguy
+ * @copyright 	Copyright (C) 2016 - yannick Tanguy
+ * @license 	GNU/GPL http://www.gnu.org/copyleft/gpl.html
+ **/
+#dailycomplete{
+	visibility:hidden;
+}
+#dailyfullscreen {
+	background: none repeat scroll 0 0 rgba(0,0,255,0.85);
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#0000ff', EndColorStr='#0000ff');
+	bottom: 0;
+	color: #FFFFFF;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+	display:none;
+}
+#dailyposition {
+  height: 87%;
+  margin: auto;
+  overflow: auto;
+  padding: 10px;
+  width: 100%;
+}
+.copyrightyannt {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px #000;
+  height: 20px;
+  padding: 3px;
+}
+.copyrightyannt a {
+	float:right;
+	text-shadow:1px 1px #333, -1px -1px #444;
+	font-style:italic;
+	font-weight:bolder;
+	font-size:9px;
+	color:#888888;
+	margin-top:1px;
+}
+.posdailybut {
+  bottom: 5px;
+  height: 34px;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+.dailybutton {
+  background-color: #ededed;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 0 #ffffff inset;
+  color: #777777;
+  display: inline-block;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  height: 28px;
+  margin-top: 5px;
+  padding: 3px 7px !important;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #ffffff;
+  z-index: 10000;
+}
+.dailybutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	background-color:#dfdfdf;
+}
+.dailybutton:active {
+	position:relative;
+	top:1px;
+}
+#dailytimer {
+	margin:auto;
+	position:relative;
+	width:190px;
+}
+#actdaily {
+  background: none repeat scroll 0px 0px transparent;
+  cursor: pointer;
+  height: 34px;
+  position: absolute;
+  width: 100%;
+  z-index:10001;
+}
+#dailyfullscreen.btnh #dailyposition {
+  margin-top: 49px;
+}
+#dailyfullscreen.btnh .posdailybut {
+  bottom: inherit;
+  top: 37px;
+}
+#dailyfullscreen img {
+    max-width:100%;
+    max-height:100%;
+}
+#dailyfullscreen .alertpopup {
+  color: #f00;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 15px;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+#dailyfullscreen .alertpopup span {
+  font-size: 20px;
+}

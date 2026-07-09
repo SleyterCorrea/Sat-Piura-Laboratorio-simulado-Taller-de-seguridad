@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/jce/css/content.css?683ab104e87844cbb48985f9379f8c3c" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="es-es">
+	<title type="text">Resoluciones en materia de gestión de la entidad</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://web.satp.gob.pe"/>
+	<id>https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-en-materia-de-gestion-de-la-entidad/49-informacion/ne-entidad</id>
+	<updated>2026-06-30T13:29:26-05:00</updated>
+	<author>
+		<name>SATP</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-en-materia-de-gestion-de-la-entidad/49-informacion/ne-entidad?format=feed&amp;type=atom"/>
+	<entry>
+		<title>OTROS</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/otros/ne-entidad/otros"/>
+		<published>2023-08-23T12:40:06-05:00</published>
+		<updated>2023-08-23T12:40:06-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/otros/ne-entidad/otros</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="NORMAS EMITIDAS POR LA ENTIDAD" />
+	</entry>
+	<entry>
+		<title>RESOLUCIONES EN MATERIA DE GESTIÓN DE LA ENTIDAD</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-en-materia-de-gestion-de-la-entidad"/>
+		<published>2023-07-05T10:50:17-05:00</published>
+		<updated>2023-07-05T10:50:17-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-en-materia-de-gestion-de-la-entidad</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="NORMAS EMITIDAS POR LA ENTIDAD" />
+	</entry>
+	<entry>
+		<title>RESOLUCIONES QUE APRUEBAN DIRECTIVAS, MANUALES, PROCEDIMIENTOS E INSTRUCTIVOS</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-que-aprueban-directivas-manuales-procedimientos-e-instructivos"/>
+		<published>2023-07-05T10:16:58-05:00</published>
+		<updated>2023-07-05T10:16:58-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-que-aprueban-directivas-manuales-procedimientos-e-instructivos</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="NORMAS EMITIDAS POR LA ENTIDAD" />
+	</entry>
+	<entry>
+		<title>RESOLUCIONES DEL COMITÉ DIRECTIVO</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-de-comite-directivo"/>
+		<published>2023-07-05T09:50:43-05:00</published>
+		<updated>2023-07-05T09:50:43-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-de-comite-directivo</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="NORMAS EMITIDAS POR LA ENTIDAD" />
+	</entry>
+	<entry>
+		<title>INFORMES DE TRANSFERENCIAS DE GESTIÓN</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/otros/ne-entidad/informes-de-transferencias-de-gestion"/>
+		<published>2023-07-05T09:38:14-05:00</published>
+		<updated>2023-07-05T09:38:14-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/otros/ne-entidad/informes-de-transferencias-de-gestion</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="NORMAS EMITIDAS POR LA ENTIDAD" />
+	</entry>
+	<entry>
+		<title>ACTAS DE TRANSFERENCIAS DE GESTIÓN</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/otros/ne-entidad/actas-de-transferencias-de-gestion"/>
+		<published>2023-07-04T14:53:33-05:00</published>
+		<updated>2023-07-04T14:53:33-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/otros/ne-entidad/actas-de-transferencias-de-gestion</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="NORMAS EMITIDAS POR LA ENTIDAD" />
+	</entry>
+	<entry>
+		<title>MEMORIAS INSTITUCIONALES</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/otros/ne-entidad/memorias-institucionales"/>
+		<published>2023-07-03T12:57:58-05:00</published>
+		<updated>2023-07-03T12:57:58-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/otros/ne-entidad/memorias-institucionales</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="NORMAS EMITIDAS POR LA ENTIDAD" />
+	</entry>
+	<entry>
+		<title>NORMAS EMITIDAS POR LA ENTIDAD</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/otros/ne-entidad"/>
+		<published>2023-04-10T09:36:41-05:00</published>
+		<updated>2023-04-10T09:36:41-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/otros/ne-entidad</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="NORMAS EMITIDAS POR LA ENTIDAD" />
+	</entry>
+</feed>

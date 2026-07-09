@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/jce/css/content.css?683ab104e87844cbb48985f9379f8c3c" type="text/css"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Normas emitidas por la entidad</title>
+		<description><![CDATA[]]></description>
+		<link>https://web.satp.gob.pe/informacion/otros/ne-entidad/49-informacion/ne-entidad</link>
+		<lastBuildDate>Tue, 30 Jun 2026 13:29:19 -0500</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://web.satp.gob.pe/informacion/otros/ne-entidad/49-informacion/ne-entidad?format=feed&amp;type=rss"/>
+		<language>es-es</language>
+		<item>
+			<title>OTROS</title>
+			<link>https://web.satp.gob.pe/informacion/otros/ne-entidad/otros</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/informacion/otros/ne-entidad/otros</guid>
+			<description><![CDATA[]]></description>
+			<category>NORMAS EMITIDAS POR LA ENTIDAD</category>
+			<pubDate>Wed, 23 Aug 2023 12:40:06 -0500</pubDate>
+		</item>
+		<item>
+			<title>RESOLUCIONES EN MATERIA DE GESTIÓN DE LA ENTIDAD</title>
+			<link>https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-en-materia-de-gestion-de-la-entidad</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-en-materia-de-gestion-de-la-entidad</guid>
+			<description><![CDATA[]]></description>
+			<category>NORMAS EMITIDAS POR LA ENTIDAD</category>
+			<pubDate>Wed, 05 Jul 2023 10:50:17 -0500</pubDate>
+		</item>
+		<item>
+			<title>RESOLUCIONES QUE APRUEBAN DIRECTIVAS, MANUALES, PROCEDIMIENTOS E INSTRUCTIVOS</title>
+			<link>https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-que-aprueban-directivas-manuales-procedimientos-e-instructivos</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-que-aprueban-directivas-manuales-procedimientos-e-instructivos</guid>
+			<description><![CDATA[]]></description>
+			<category>NORMAS EMITIDAS POR LA ENTIDAD</category>
+			<pubDate>Wed, 05 Jul 2023 10:16:58 -0500</pubDate>
+		</item>
+		<item>
+			<title>RESOLUCIONES DEL COMITÉ DIRECTIVO</title>
+			<link>https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-de-comite-directivo</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/informacion/otros/ne-entidad/resoluciones-de-comite-directivo</guid>
+			<description><![CDATA[]]></description>
+			<category>NORMAS EMITIDAS POR LA ENTIDAD</category>
+			<pubDate>Wed, 05 Jul 2023 09:50:43 -0500</pubDate>
+		</item>
+		<item>
+			<title>INFORMES DE TRANSFERENCIAS DE GESTIÓN</title>
+			<link>https://web.satp.gob.pe/informacion/otros/ne-entidad/informes-de-transferencias-de-gestion</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/informacion/otros/ne-entidad/informes-de-transferencias-de-gestion</guid>
+			<description><![CDATA[]]></description>
+			<category>NORMAS EMITIDAS POR LA ENTIDAD</category>
+			<pubDate>Wed, 05 Jul 2023 09:38:14 -0500</pubDate>
+		</item>
+		<item>
+			<title>ACTAS DE TRANSFERENCIAS DE GESTIÓN</title>
+			<link>https://web.satp.gob.pe/informacion/otros/ne-entidad/actas-de-transferencias-de-gestion</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/informacion/otros/ne-entidad/actas-de-transferencias-de-gestion</guid>
+			<description><![CDATA[]]></description>
+			<category>NORMAS EMITIDAS POR LA ENTIDAD</category>
+			<pubDate>Tue, 04 Jul 2023 14:53:33 -0500</pubDate>
+		</item>
+		<item>
+			<title>MEMORIAS INSTITUCIONALES</title>
+			<link>https://web.satp.gob.pe/informacion/otros/ne-entidad/memorias-institucionales</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/informacion/otros/ne-entidad/memorias-institucionales</guid>
+			<description><![CDATA[]]></description>
+			<category>NORMAS EMITIDAS POR LA ENTIDAD</category>
+			<pubDate>Mon, 03 Jul 2023 12:57:58 -0500</pubDate>
+		</item>
+		<item>
+			<title>NORMAS EMITIDAS POR LA ENTIDAD</title>
+			<link>https://web.satp.gob.pe/informacion/otros/ne-entidad</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/informacion/otros/ne-entidad</guid>
+			<description><![CDATA[]]></description>
+			<category>NORMAS EMITIDAS POR LA ENTIDAD</category>
+			<pubDate>Mon, 10 Apr 2023 09:36:41 -0500</pubDate>
+		</item>
+	</channel>
+</rss>

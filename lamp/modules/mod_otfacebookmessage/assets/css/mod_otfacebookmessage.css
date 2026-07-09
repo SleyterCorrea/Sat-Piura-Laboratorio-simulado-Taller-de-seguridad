@@ -1,0 +1,94 @@
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+.ot_facebook_message  .tab-text-icon {
+    font-size: 20px !important;
+    line-height: 30px !important;
+    padding-right: 7px !important;
+    float: left !important;
+    margin-left: 12px !important;
+    width: auto !important;
+    height: 100% !important;
+    background: none !important;
+}
+.ot_facebook_message  .tab-content {
+    padding-right: 12px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    float: left;
+    line-height: 32px !important;
+    /*font-family: arial,helvetica,sans-serif !important;*/
+    border: 0 !important;
+    background: none;
+    margin: 0 !important;
+}
+.ot_facebook_message  .f-chat-conent  {
+	  bottom: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    left: auto;
+    /*position: fixed;
+    right: 5%;*/
+    z-index: 14000000;
+}
+
+.ot_facebook_message #chat_f_close {
+	 position: absolute;
+    right: 8px;
+    top: 0;
+    width: 20px;
+    z-index: 99999;
+	 text-decoration: none;
+	 padding:0px !important;
+}
+.ot_facebook_message .ot-about {
+ 
+    bottom: 0;
+    clear: both;
+    color: #fff;
+    display: inline-block;
+    /*font-family: arial,helvetica,sans-serif;*/
+    font-size: 10px;
+    height: 18px;
+    left: 0;
+    line-height: 14px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
+#f-chat-conent .ot-about a {
+    color: #fff;
+    /*font-family: arial,helvetica,sans-serif;*/
+    text-decoration: none;
+	padding:0px;
+}
+.white-icon.icon-close  {
+	font-size:28px;
+	color:#fff;
+	display:none;
+}
+.f-chat-conent {
+	/*display:none;*/
+	bottom: -323px;
+}
+.ot-close-tabimage {
+    /*background-color: #fff;*/
+    display: none;
+    height: 20px;
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+}
+.trigger-image {
+	display:inline-block;
+}

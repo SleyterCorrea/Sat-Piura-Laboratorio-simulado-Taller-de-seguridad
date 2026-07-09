@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT-LAB | Oficina Virtual - Laboratorio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Open Sans', 'Segoe UI', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* ── BARRA SUPERIOR AZUL ── */
+        .top-bar {
+            background-color: #0654a3;
+            padding: 0 20px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+            z-index: 10;
+            position: relative;
+        }
+        .logo-area { display: flex; align-items: center; gap: 10px; }
+        .logo-box {
+            background: #fff;
+            border-radius: 3px;
+            padding: 3px 7px;
+            display: flex;
+            align-items: baseline;
+            gap: 2px;
+        }
+        .logo-text-big  { color: #0654a3; font-size: 16px; font-weight: 700; letter-spacing: 1px; }
+        .logo-text-small{ color: #e8a020; font-size: 10px; font-weight: 700; }
+        .logo-subtitle  {
+            display: flex; flex-direction: column;
+            color: rgba(255,255,255,.85);
+            font-size: 9px; font-weight: 600;
+            letter-spacing: .3px; line-height: 1.5;
+            text-transform: uppercase;
+        }
+
+        /* ── FONDO PRINCIPAL ── */
+        .fondo-principal {
+            flex: 1;
+            position: relative;
+            background-image: url('fondo.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 20px 20px;
+        }
+        .fondo-principal::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgba(6, 84, 163, 0.12);
+            z-index: 0;
+        }
+
+        /* ── TARJETA LOGIN CENTRADA ── */
+        .login-card {
+            position: relative;
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.96);
+            border-radius: 6px;
+            padding: 28px 32px 24px;
+            width: 100%;
+            max-width: 330px;
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.30);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* ── LOGO ── */
+        .card-logo-area  { text-align: center; margin-bottom: 10px; }
+        .card-logo-img-wrap {
+            width: 130px; height: 70px;
+            margin: 0 auto 8px;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .card-logo-img { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 4px; }
+        .card-entity-name {
+            font-size: 10px; font-weight: 600; color: #666;
+            text-align: center; line-height: 1.5;
+            letter-spacing: .3px; text-transform: uppercase;
+        }
+
+        /* ── BIENVENIDO ── */
+        .bienvenido {
+            font-size: 20px; font-weight: 700;
+            color: #00a4e4; text-align: center;
+            letter-spacing: 2px; margin: 12px 0 18px;
+        }
+
+        /* ── FORMULARIO ── */
+        .login-form { width: 100%; display: flex; flex-direction: column; gap: 10px; }
+        .input-wrapper input {
+            width: 100%; padding: 10px 14px;
+            background-color: #c2d3dd;
+            border: none; border-radius: 3px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 13px; color: #333; outline: none;
+            transition: background .2s;
+        }
+        .input-wrapper input::placeholder { color: #6a8a9a; }
+        .input-wrapper input:focus { background-color: #a8c4d4; }
+
+        /* ── OLVIDÓ CONTRASEÑA ── */
+        .forgot-link-area { text-align: right; margin-top: -4px; }
+        .forgot-link { font-size: 11px; color: #0654a3; text-decoration: none; font-style: italic; }
+        .forgot-link:hover { text-decoration: underline; }
+
+        /* ── BOTÓN INGRESAR ── */
+        .btn-ingresar {
+            width: 100%; padding: 11px;
+            background: linear-gradient(135deg, #b3d234 0%, #8ab520 100%);
+            border: none; border-radius: 3px;
+            color: #fff; font-family: 'Open Sans', sans-serif;
+            font-size: 14px; font-weight: 700;
+            letter-spacing: 2px; cursor: pointer;
+            margin-top: 6px; transition: background .2s, box-shadow .2s;
+        }
+        .btn-ingresar:hover {
+            background: linear-gradient(135deg, #c5e640 0%, #9ac920 100%);
+            box-shadow: 0 3px 12px rgba(139,181,32,.5);
+        }
+
+        /* ── MENSAJE DE ERROR ── */
+        .error-msg {
+            display: none;
+            background: #fdf2f2;
+            border: 1px solid #e74c3c;
+            border-radius: 3px;
+            padding: 9px 14px;
+            font-size: 12px;
+            color: #c0392b;
+            font-weight: 600;
+            text-align: center;
+            width: 100%;
+            animation: shake .4s ease;
+        }
+        .error-msg.visible { display: block; }
+        @keyframes shake {
+            0%,100%{transform:translateX(0)}
+            20%{transform:translateX(-8px)}
+            40%{transform:translateX(8px)}
+            60%{transform:translateX(-5px)}
+            80%{transform:translateX(5px)}
+        }
+
+        /* ── ÁREA REGISTRO ── */
+        .register-area { margin-top: 16px; text-align: center; }
+        .register-area p { font-size: 11px; color: #777; line-height: 1.5; }
+        .link-afiliate {
+            display: block; font-size: 13px; font-weight: 700;
+            color: #0654a3; text-decoration: none; margin-top: 4px;
+        }
+        .link-afiliate:hover { color: #00a4e4; text-decoration: underline; }
+
+        /* ── BOTÓN DOCUMENTOS EXTERNOS ── */
+        .external-docs-btn-wrapper { margin-top: 14px; width: 100%; text-align: center; }
+        .external-docs-btn {
+            display: inline-block; font-size: 12px; color: #555;
+            text-decoration: none;
+            background: rgba(255,255,255,.75);
+            border-radius: 20px; padding: 6px 16px;
+            transition: background .2s;
+        }
+        .external-docs-btn:hover { background: rgba(255,255,255,.95); }
+    </style>
+</head>
+<body>
+
+    <!-- Barra superior azul institucional -->
+    <header class="top-bar">
+        <div class="logo-area">
+            <div class="logo-box">
+                <span class="logo-text-big">SAT</span>
+                <span class="logo-text-small">LAB</span>
+            </div>
+            <div class="logo-subtitle">
+                <span>SISTEMA DE ADMINISTRACIÓN</span>
+                <span>TRIBUTARIA — LABORATORIO</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Fondo tech + tarjeta centrada -->
+    <main class="fondo-principal">
+        <div class="login-card">
+
+            <!-- Logo dentro de la tarjeta -->
+            <div class="card-logo-area">
+                <div class="card-logo-img-wrap">
+                    <img src="logo.png" alt="Logo Oficina Virtual SAT-LAB" class="card-logo-img">
+                </div>
+                <p class="card-entity-name">SERVICIO DE ADMINISTRACIÓN TRIBUTARIA<br>LABORATORIO EDUCATIVO</p>
+            </div>
+
+            <h2 class="bienvenido">BIENVENIDO</h2>
+
+            <!-- Formulario → login.php (V3: Brute Force + SQLi) -->
+            <form id="login-form" class="login-form">
+                <div class="input-wrapper">
+                    <input type="text" name="usuario" id="usuario"
+                           placeholder="Usuario / DNI" autocomplete="off" required>
+                </div>
+                <div class="input-wrapper">
+                    <input type="password" name="password" id="password"
+                           placeholder="Contraseña" autocomplete="off">
+                </div>
+
+                <div class="forgot-link-area">
+                    <a href="#" class="forgot-link">¿Olvidó su contraseña?</a>
+                </div>
+
+                <!-- Mensaje de error (visible solo si viene ?error=1) -->
+                <div class="error-msg" id="error-msg">
+                    ❌ Usuario o contraseña incorrectos. Verifique sus credenciales.
+                </div>
+
+                <button type="submit" class="btn-ingresar" id="btn-ingresar">INGRESAR</button>
+            </form>
+
+            <div class="register-area">
+                <p>Si aún no cuenta con su acceso a la plataforma virtual</p>
+                <a href="#" class="link-afiliate">Afíliate aquí</a>
+            </div>
+
+            <div class="external-docs-btn-wrapper">
+                <a href="#" class="external-docs-btn">
+                    Para documentos externos haga click aquí 👆
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <script>
+        (function() {
+            // ─── Mostrar error si viene de login fallido ───────────────
+            var params = new URLSearchParams(window.location.search);
+            if (params.get('error') === '1') {
+                document.getElementById('error-msg').classList.add('visible');
+            }
+
+            // ─── Detectar protocolo y configurar el formulario ─────────
+            var form = document.getElementById('login-form');
+
+            if (window.location.protocol === 'file:') {
+                // MODO LOCAL (file://) → demo visual sin servidor
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    // Muestra el dashboard demo directamente
+                    window.location.href = 'dashboard_demo.html';
+                });
+            } else {
+                // MODO SERVIDOR (http://) → login real con PHP + SQL Injection
+                form.setAttribute('action', 'login.php');
+                form.setAttribute('method', 'POST');
+            }
+        })();
+    </script>
+
+</body>
+</html>

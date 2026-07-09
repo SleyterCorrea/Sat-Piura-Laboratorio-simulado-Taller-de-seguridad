@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/jce/css/content.css?683ab104e87844cbb48985f9379f8c3c" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="es-es">
+	<title type="text">Procedimientos Administrativos</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://web.satp.gob.pe"/>
+	<id>https://web.satp.gob.pe/tramites/procedimientos</id>
+	<updated>2026-06-30T13:10:42-05:00</updated>
+	<author>
+		<name>SATP</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://web.satp.gob.pe/tramites/procedimientos?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Liquidación del Impuesto de Alcabala</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/procedimientos/256-liquidacion-del-impuesto-de-alcabala"/>
+		<published>2024-01-23T13:28:50-05:00</published>
+		<updated>2024-01-23T13:28:50-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/procedimientos/256-liquidacion-del-impuesto-de-alcabala</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="PROCEDIMIENTOS ADMINISTRATIVOS" />
+	</entry>
+	<entry>
+		<title>Rectificación o Modificación de Datos del Contribuyente, del Domicilio Fiscal y/o Procesal</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/procedimientos/245-rectificacion-o-modificacion-de-datos-del-contribuyente-del-domicilio-fiscal-y-o-procesal"/>
+		<published>2024-01-23T13:29:05-05:00</published>
+		<updated>2024-01-23T13:29:05-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/procedimientos/245-rectificacion-o-modificacion-de-datos-del-contribuyente-del-domicilio-fiscal-y-o-procesal</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="PROCEDIMIENTOS ADMINISTRATIVOS" />
+	</entry>
+	<entry>
+		<title>Presentación de la Declaración Jurada del Impuesto al Patrimonio Vehicular</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/procedimientos/244-presentacion-de-la-declaracion-jurada-del-impuesto-al-patrimonio-vehicular"/>
+		<published>2024-01-23T13:29:25-05:00</published>
+		<updated>2024-01-23T13:29:25-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/procedimientos/244-presentacion-de-la-declaracion-jurada-del-impuesto-al-patrimonio-vehicular</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="PROCEDIMIENTOS ADMINISTRATIVOS" />
+	</entry>
+	<entry>
+		<title>Rectificación o Sustitución de Declaración Jurada sobre Componentes de Valorización del Predio que Determina una Menor Obligación</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/procedimientos/270-rectificacion-o-sustitucion-de-declaracion-jurada-sobre-componentes-de-valorizacion-del-predio-que-determina-una-menor-obligacion"/>
+		<published>2024-01-23T13:30:27-05:00</published>
+		<updated>2024-01-23T13:30:27-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/procedimientos/270-rectificacion-o-sustitucion-de-declaracion-jurada-sobre-componentes-de-valorizacion-del-predio-que-determina-una-menor-obligacion</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="PROCEDIMIENTOS ADMINISTRATIVOS" />
+	</entry>
+	<entry>
+		<title>Rectificación o Sustitución de Declaración Jurada sobre Componentes de Valorización del Predio que Determina una Mayor o Igual Obligación</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/procedimientos/241-rectificacion-o-sustitucion-de-declaracion-jurada-sobre-componentes-de-valorizacion-del-predio-que-determina-una-mayor-o-igual-obligacion"/>
+		<published>2024-01-23T13:30:27-05:00</published>
+		<updated>2024-01-23T13:30:27-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/procedimientos/241-rectificacion-o-sustitucion-de-declaracion-jurada-sobre-componentes-de-valorizacion-del-predio-que-determina-una-mayor-o-igual-obligacion</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="PROCEDIMIENTOS ADMINISTRATIVOS" />
+	</entry>
+	<entry>
+		<title>Presentación de la Declaración Jurada del Impuesto a los Espectáculos Públicos no Deportivos</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/procedimientos/238-presentacion-de-la-declaracion-jurada-del-impuesto-a-los-espectaculos-publicos-no-deportivos"/>
+		<published>2024-01-23T13:31:30-05:00</published>
+		<updated>2024-01-23T13:31:30-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/procedimientos/238-presentacion-de-la-declaracion-jurada-del-impuesto-a-los-espectaculos-publicos-no-deportivos</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="PROCEDIMIENTOS ADMINISTRATIVOS" />
+	</entry>
+	<entry>
+		<title>Liquidación del Impuesto a los Juegos</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/procedimientos/237-liquidacion-del-impuesto-a-los-juegos"/>
+		<published>2024-01-23T13:31:54-05:00</published>
+		<updated>2024-01-23T13:31:54-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/procedimientos/237-liquidacion-del-impuesto-a-los-juegos</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="PROCEDIMIENTOS ADMINISTRATIVOS" />
+	</entry>
+	<entry>
+		<title>Compensación de Deuda por Pagos Indebidos o en Exceso</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/procedimientos/258-compensacion-de-deuda-por-pagos-indebidos-o-en-exceso"/>
+		<published>2024-01-23T22:02:24-05:00</published>
+		<updated>2024-01-23T22:02:24-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/procedimientos/258-compensacion-de-deuda-por-pagos-indebidos-o-en-exceso</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="PROCEDIMIENTOS ADMINISTRATIVOS" />
+	</entry>
+	<entry>
+		<title>Acreditación y Registro de Beneficio Tributario a Pensionista y/o Adulto Mayor No Pensionista</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/procedimientos/259-acreditacion-y-registro-de-beneficio-tributario-a-pensionista-adulto-mayor-no-pensionista"/>
+		<published>2024-01-23T22:02:37-05:00</published>
+		<updated>2024-01-23T22:02:37-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/procedimientos/259-acreditacion-y-registro-de-beneficio-tributario-a-pensionista-adulto-mayor-no-pensionista</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="PROCEDIMIENTOS ADMINISTRATIVOS" />
+	</entry>
+	<entry>
+		<title>Prescripción en Materia Tributaria</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/procedimientos/261-prescripcion-en-materia-tributaria"/>
+		<published>2024-01-23T22:03:13-05:00</published>
+		<updated>2024-01-23T22:03:13-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/procedimientos/261-prescripcion-en-materia-tributaria</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="PROCEDIMIENTOS ADMINISTRATIVOS" />
+	</entry>
+</feed>

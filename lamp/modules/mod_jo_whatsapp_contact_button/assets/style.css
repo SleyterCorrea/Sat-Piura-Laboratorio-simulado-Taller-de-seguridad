@@ -1,0 +1,50 @@
+/*
+# mod_jo_whatsapp_contact_button - JO WhatsApp Contact Button for Joomla 1.6, 1.7, 2.5 and 3.x module
+*/
+/*button css*/
+.wcf2w_button{
+    border-radius: 50px!important;
+    text-align: center!important;
+    padding: 0px!important;
+    outline:none!important;
+    text-decoration: none!important;
+    border:none!important;
+    box-shadow: none!important;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    margin:0px!important;
+    line-height: normal!important;
+    opacity: 0.9;
+    z-index: 99999999!important;
+}
+
+.wcf2w_button:hover{
+    color: #ffffff!important;
+    text-decoration: none!important;
+    outline:none!important;
+    border:none!important;
+    box-shadow: none!important;
+    opacity: 1;
+}	
+
+.wcf2w_button:focus{
+    color: #ffffff!important;
+    text-decoration: none!important;
+    outline:none!important;
+    border:none!important;
+    box-shadow: none!important;
+}   
+
+.wcf2w_button:link{
+    color: #ffffff!important;
+    text-decoration: none!important;
+    outline:none!important;
+    border:none!important;
+    box-shadow: none!important;
+}
+
+.wcf2w_button i{
+    font-size: 40px!important;
+    margin-top: 10px;
+}

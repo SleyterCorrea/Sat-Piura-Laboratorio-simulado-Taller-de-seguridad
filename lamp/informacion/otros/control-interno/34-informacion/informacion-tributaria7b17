@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/jce/css/content.css?683ab104e87844cbb48985f9379f8c3c" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="es-es">
+	<title type="text">Control Interno</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://web.satp.gob.pe"/>
+	<id>https://web.satp.gob.pe/informacion/otros/control-interno/34-informacion/informacion-tributaria</id>
+	<updated>2026-06-30T14:16:31-05:00</updated>
+	<author>
+		<name>SATP</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://web.satp.gob.pe/informacion/otros/control-interno/34-informacion/informacion-tributaria?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Parámetros del Impuesto Predial</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/informacion-tributaria/parametros-del-impuesto-predial"/>
+		<published>2024-02-20T00:56:07-05:00</published>
+		<updated>2024-02-20T00:56:07-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/informacion-tributaria/parametros-del-impuesto-predial</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="Información Tributaria" />
+	</entry>
+	<entry>
+		<title>Cronograma Vencimiento</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/otros/cronograma-vencimiento"/>
+		<published>2020-09-17T13:19:43-05:00</published>
+		<updated>2020-09-17T13:19:43-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/otros/cronograma-vencimiento</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;https://web.satp.gob.pe/images/2026/01/29/cronograma-2026-__1600x450.jpeg&quot; alt=&quot;vencimiento2025 1565x569&quot; width=&quot;1600&quot; height=&quot;450&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; color: #1f38a8;&quot;&gt;&lt;a href=&quot;https://cdn.www.gob.pe/uploads/document/file/9281972/7614466-om184-03.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;wf_file&quot; style=&quot;color: #1f38a8;&quot;&gt;&lt;strong&gt;Ordenanza 184-03-CMPP&lt;/strong&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;iframe src=&quot;https://cdn.www.gob.pe/uploads/document/file/9281972/7614466-om184-03.pdf&quot; width=&quot;100%&quot; height=&quot;900&quot; loading=&quot;undefined&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://web.satp.gob.pe/images/2026/01/29/cronograma-2026-__1600x450.jpeg&quot; alt=&quot;vencimiento2025 1565x569&quot; width=&quot;1600&quot; height=&quot;450&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; color: #1f38a8;&quot;&gt;&lt;a href=&quot;https://cdn.www.gob.pe/uploads/document/file/9281972/7614466-om184-03.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;wf_file&quot; style=&quot;color: #1f38a8;&quot;&gt;&lt;strong&gt;Ordenanza 184-03-CMPP&lt;/strong&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;iframe src=&quot;https://cdn.www.gob.pe/uploads/document/file/9281972/7614466-om184-03.pdf&quot; width=&quot;100%&quot; height=&quot;900&quot; loading=&quot;undefined&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&lt;/p&gt;</content>
+		<category term="Información Tributaria" />
+	</entry>
+	<entry>
+		<title>Impuesto a los Juegos</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/informacion-tributaria/impuesto-a-los-juegos"/>
+		<published>2020-09-04T00:57:59-05:00</published>
+		<updated>2020-09-04T00:57:59-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/informacion-tributaria/impuesto-a-los-juegos</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="Información Tributaria" />
+	</entry>
+	<entry>
+		<title>Impuesto a los Espectáculos Públicos no Deportivos (EPND)</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/informacion-tributaria/iepnd"/>
+		<published>2020-09-04T00:57:42-05:00</published>
+		<updated>2020-09-04T00:57:42-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/informacion-tributaria/iepnd</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="Información Tributaria" />
+	</entry>
+	<entry>
+		<title>Impuesto Alcabala</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/informacion-tributaria/impuesto-alcabala"/>
+		<published>2020-09-04T00:57:14-05:00</published>
+		<updated>2020-09-04T00:57:14-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/informacion-tributaria/impuesto-alcabala</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="Información Tributaria" />
+	</entry>
+	<entry>
+		<title>Impuesto Vehicular</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/informacion-tributaria/impuesto-vehicular"/>
+		<published>2020-09-04T00:56:59-05:00</published>
+		<updated>2020-09-04T00:56:59-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/informacion-tributaria/impuesto-vehicular</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="Información Tributaria" />
+	</entry>
+	<entry>
+		<title>      Arbitrios Municipales</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/informacion-tributaria/arbitrios-municipales"/>
+		<published>2020-09-04T00:56:27-05:00</published>
+		<updated>2020-09-04T00:56:27-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/informacion-tributaria/arbitrios-municipales</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="Información Tributaria" />
+	</entry>
+	<entry>
+		<title>Impuesto Predial</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/informacion-tributaria/impuesto-predial"/>
+		<published>2020-09-04T00:56:07-05:00</published>
+		<updated>2020-09-04T00:56:07-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/informacion-tributaria/impuesto-predial</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="Información Tributaria" />
+	</entry>
+</feed>

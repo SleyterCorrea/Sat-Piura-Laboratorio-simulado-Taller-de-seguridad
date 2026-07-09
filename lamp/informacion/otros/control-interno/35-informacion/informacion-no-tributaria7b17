@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/jce/css/content.css?683ab104e87844cbb48985f9379f8c3c" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="es-es">
+	<title type="text">Control Interno</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://web.satp.gob.pe"/>
+	<id>https://web.satp.gob.pe/informacion/otros/control-interno/35-informacion/informacion-no-tributaria</id>
+	<updated>2026-06-30T14:16:34-05:00</updated>
+	<author>
+		<name>SATP</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://web.satp.gob.pe/informacion/otros/control-interno/35-informacion/informacion-no-tributaria?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Actas de control</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/informacion-no-tributaria/actas-de-control"/>
+		<published>2020-09-21T00:06:51-05:00</published>
+		<updated>2020-09-21T00:06:51-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/informacion-no-tributaria/actas-de-control</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="Información no Tributaria" />
+	</entry>
+	<entry>
+		<title>Papeletas Administrativas</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/informacion-no-tributaria/papeletas-administrativas"/>
+		<published>2020-09-21T00:04:48-05:00</published>
+		<updated>2020-09-21T00:04:48-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/informacion-no-tributaria/papeletas-administrativas</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="Información no Tributaria" />
+	</entry>
+	<entry>
+		<title>Tabla de Infracciones</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/otros/control-interno/35-informacion/informacion-no-tributaria/76-tabla-de-infracciones"/>
+		<published>2020-09-04T00:58:31-05:00</published>
+		<updated>2020-09-04T00:58:31-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/otros/control-interno/35-informacion/informacion-no-tributaria/76-tabla-de-infracciones</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="Información no Tributaria" />
+	</entry>
+	<entry>
+		<title>Infracciones RNT</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/informacion/informacion-no-tributaria/infracciones-rnt"/>
+		<published>2020-09-04T00:58:19-05:00</published>
+		<updated>2020-09-04T00:58:19-05:00</updated>
+		<id>https://web.satp.gob.pe/informacion/informacion-no-tributaria/infracciones-rnt</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="Información no Tributaria" />
+	</entry>
+</feed>
