@@ -1,4 +1,5 @@
-﻿<?php
+<?php
+ob_start(); // Buffer output — previene "headers already sent" (CWE fix)
 /*
  * ============================================================
  * ARCHIVO: web/login.php
