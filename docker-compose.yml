@@ -42,6 +42,7 @@ services:
     command: >
       bash -c "docker-php-ext-install pdo pdo_mysql mysqli &&
                a2enmod rewrite &&
+               a2dismod reqtimeout &&
                a2enconf lab 2>/dev/null || true &&
                apache2-foreground"
     restart: unless-stopped
