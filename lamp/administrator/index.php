@@ -1,3 +1,27 @@
+
+<?php
+/*
+// 1. Iniciamos el motor de sesiones de PHP
+session_start();
+
+// 2. Validamos si NO existe la sesión o si el rol NO es de administrador
+if (!isset($_SESSION['usuario']) || $_SESSION['rol'] !== 'admin') {
+    
+    // 3. Si es un intruso (atacante sin login), destruimos cualquier intento de sesión
+    session_unset();
+    session_destroy();
+
+    // 4. Lo redirigimos forzosamente a la pantalla principal (login)
+    header("Location: ../index.html");
+    
+    // 5. Detenemos la ejecución del código ABSOLUTAMENTE. 
+    // Esto evita que el HTML del panel se renderice de fondo.
+    exit(); 
+}
+*/
+?>
+
+
 <?php
 /*
  * ============================================================
