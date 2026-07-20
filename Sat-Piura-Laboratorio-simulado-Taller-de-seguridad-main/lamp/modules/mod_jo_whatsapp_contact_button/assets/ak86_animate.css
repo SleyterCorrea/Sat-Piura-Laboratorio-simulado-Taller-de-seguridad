@@ -1,0 +1,151 @@
+/*
+# mod_jo_whatsapp_contact_button - JO WhatsApp Contact Button for Joomla 1.6, 1.7, 2.5 and 3.x module
+*/
+
+/*Rotate*/
+@-webkit-keyframes rotate {
+  20% {-webkit-transform: rotate3d(0, 0, 1, 15deg);}
+  40% {-webkit-transform: rotate3d(0, 0, 1, -10deg);}
+  60% {-webkit-transform: rotate3d(0, 0, 1, 5deg);}
+  80% {-webkit-transform: rotate3d(0, 0, 1, -5deg);}
+  100% {-webkit-transform: rotate3d(0, 0, 1, 0deg);}
+}
+
+@-moz-keyframes rotate {
+  20% {-moz-transform: rotate3d(0, 0, 1, 15deg);}
+  40% {-moz-transform: rotate3d(0, 0, 1, -10deg);}
+  60% {-moz-transform: rotate3d(0, 0, 1, 5deg);}
+  80% {-moz-transform: rotate3d(0, 0, 1, -5deg);}
+  100% {-moz-transform: rotate3d(0, 0, 1, 0deg);}
+}
+
+@-o-keyframes rotate {
+  20% {-o-transform: rotate3d(0, 0, 1, 15deg);}
+  40% {-o-transform: rotate3d(0, 0, 1, -10deg);}
+  60% {-o-transform: rotate3d(0, 0, 1, 5deg);}
+  80% {-o-transform: rotate3d(0, 0, 1, -5deg);}
+  100% {-o-transform: rotate3d(0, 0, 1, 0deg);}
+}
+
+@keyframes rotate {
+  20% {transform: rotate3d(0, 0, 1, 15deg);}
+  40% {transform: rotate3d(0, 0, 1, -10deg);}
+  60% {transform: rotate3d(0, 0, 1, 5deg);}
+  80% {transform: rotate3d(0, 0, 1, -5deg);}
+  100% {transform: rotate3d(0, 0, 1, 0deg);}
+}
+
+.ak86_rotate:hover{
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;
+
+	-webkit-transform-origin: center center;
+	-moz-transform-origin: center center;
+	-o-transform-origin: center center;
+	transform-origin: center center;
+	-webkit-animation-name: rotate;
+	-moz-animation-name: rotate;
+	-o-animation-name: rotate;
+	animation-name: rotate;
+}	
+
+/*Tada*/
+@-webkit-keyframes tada {
+	0% {-webkit-transform:scale(1)}
+	10%, 20% {-webkit-transform:scale(0.9) rotate(-3deg)}
+	30%, 50%, 70%, 90% {-webkit-transform:scale(1.1) rotate(3deg)}
+	40%, 60%, 80% {-webkit-transform:scale(1.1) rotate(-3deg)}
+	100% {-webkit-transform:scale(1) rotate(0)}
+}
+
+@-moz-keyframes tada {
+	0% {-moz-transform:scale(1)}
+	10%,20% {-moz-transform:scale(0.9) rotate(-3deg)}
+	30%, 50%, 70%, 90% {-moz-transform:scale(1.1) rotate(3deg)}
+	40%, 60%, 80% {-moz-transform:scale(1.1) rotate(-3deg)}
+	100% {-moz-transform:scale(1) rotate(0)}
+}
+
+@-o-keyframes tada {
+	0% {-o-transform:scale(1)}
+	10%,20% {-o-transform:scale(0.9) rotate(-3deg)}
+	30%, 50%, 70%, 90% {-o-transform:scale(1.1) rotate(3deg)}
+	40%, 60%, 80% {-o-transform:scale(1.1) rotate(-3deg)}
+	100% {-o-transform:scale(1) rotate(0)}
+}
+
+@keyframes tada {
+	0% {transform:scale(1)}
+	10%, 20% {transform:scale(0.9) rotate(-3deg)}
+	30%, 50%, 70%, 90% {transform:scale(1.1) rotate(3deg)}
+	40%, 60%, 80% {transform:scale(1.1) rotate(-3deg)}
+	100% {transform:scale(1) rotate(0)}
+}
+
+.ak86_tada{
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-moz-animation-timing-function: ease;
+	-o-animation-timing-function: ease;
+	animation-timing-function: ease;
+}
+
+.ak86_tada:hover{
+	-webkit-animation-name: tada;
+	-moz-animation-name: tada;
+	-o-animation-name: tada;
+	animation-name: tada;
+}
+
+/*Swing*/
+@-webkit-keyframes swing{
+	15%{-webkit-transform: translateX(5px);transform: translateX(5px);}
+	30%{-webkit-transform: translateX(-5px);transform: translateX(-5px);}
+	50%{-webkit-transform: translateX(3px);transform: translateX(3px);}
+	65%{-webkit-transform: translateX(-3px);transform: translateX(-3px);}
+	80%{-webkit-transform: translateX(2px);transform: translateX(2px);}
+	100%{-webkit-transform: translateX(0);transform: translateX(0);}
+}
+
+@keyframes swing{
+	15%{-webkit-transform: translateX(5px);transform: translateX(5px);}
+	30%{-webkit-transform: translateX(-5px);transform: translateX(-5px);}
+	50%{-webkit-transform: translateX(3px);transform: translateX(3px);}
+	65%{-webkit-transform: translateX(-3px);transform: translateX(-3px);}
+	80%{-webkit-transform: translateX(2px);transform: translateX(2px);}
+	100%{-webkit-transform: translateX(0);transform: translateX(0);}
+}
+
+.ak86_swing:hover{
+	-webkit-animation: swing 1s ease;
+	animation: swing 1s ease;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+}
+
+/*Grow*/
+.ak86_grow{
+	transition:all 0.8s ease!important;
+}
+
+.ak86_grow:hover{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+/*Shrink*/
+.ak86_shrink{
+	transition:all 0.8s ease!important;
+}
+
+.ak86_shrink:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}

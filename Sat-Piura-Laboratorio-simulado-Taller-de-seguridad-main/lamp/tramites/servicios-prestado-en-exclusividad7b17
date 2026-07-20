@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/jce/css/content.css?683ab104e87844cbb48985f9379f8c3c" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="es-es">
+	<title type="text">Servicios Prestados en Exclusividad</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://web.satp.gob.pe"/>
+	<id>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad</id>
+	<updated>2026-06-30T13:10:47-05:00</updated>
+	<author>
+		<name>SATP</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad?format=feed&amp;type=atom"/>
+	<entry>
+		<title>CONSULTA EN LINEA</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/servicios/consulta-en-linea"/>
+		<published>2023-10-13T12:04:02-05:00</published>
+		<updated>2023-10-13T12:04:02-05:00</updated>
+		<id>https://web.satp.gob.pe/servicios/consulta-en-linea</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<summary type="html">&lt;div class=&quot;sppb-addon sppb-addon-text-block bg-primary&quot;&gt;
+&lt;h3 class=&quot;sppb-addon-title bg-primary&quot;&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;CONSULTAS EN LINEA &lt;/span&gt;&lt;/h3&gt;
+&lt;div class=&quot;wf-columns wf-columns-stack-medium bg-primary&quot; data-wf-columns=&quot;1&quot;&gt;
+&lt;div class=&quot;wf-column&quot;&gt;&lt;!--&lt;form action=&quot;/consultas/principal_publico.php&quot; method=&quot;post&quot; target=&quot;blank&quot;&gt;
+				&lt;p&gt;
+					&lt;label for=&quot;codigo&quot;&gt;DEUDAS:&lt;/label&gt;
+				&lt;/p&gt;
+				&lt;table style=&quot;width: 100%; height: 26px;&quot;&gt;
+					&lt;tbody&gt;
+						&lt;tr&gt;
+							&lt;td&gt;
+								&lt;input name=&quot;codigo&quot; type=&quot;text&quot; id=&quot;codigo&quot; placeholder=&quot;CODIGO / DNI/ RUC / CE&quot; /&gt;
+							&lt;/td&gt;
+							&lt;td&gt;
+								&lt;button type=&quot;submit&quot;&gt;&lt;img src=&quot;https://web.satp.gob.pe/consultas/pngtree-vector-search-icon-png-image_4190737.jpg&quot; alt=&quot;&quot; width=&quot;13%&quot; height=&quot;12%&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/button&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+					&lt;/tbody&gt;
+				&lt;/table&gt;
+			&lt;/form&gt; --&gt;&lt;/div&gt;
+&lt;div class=&quot;wf-column&quot;&gt;&lt;form action=&quot;/consultas/papeletas_publico.php&quot; method=&quot;post&quot; target=&quot;blank&quot;&gt;
+&lt;p&gt;&lt;label for=&quot;placa&quot;&gt;PAPELETAS:&amp;nbsp;&lt;br /&gt;&lt;/label&gt;&lt;/p&gt;
+&lt;table style=&quot;width: 100%; height: 26px;&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;input name=&quot;placa&quot; type=&quot;text&quot; id=&quot;placa&quot; placeholder=&quot;PLACA&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;button type=&quot;submit&quot;&gt;&lt;img src=&quot;https://web.satp.gob.pe/consultas/pngtree-vector-search-icon-png-image_4190737.jpg&quot; alt=&quot;&quot; width=&quot;13%&quot; height=&quot;12%&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/form&gt;&lt;/div&gt;
+&lt;div class=&quot;wf-column&quot;&gt;&lt;!--&lt;form action=&quot;/consultas/expediente_publico.php&quot; method=&quot;post&quot; target=&quot;blank&quot;&gt;
+				&lt;p&gt;
+					&lt;label for=&quot;expediente&quot;&gt;TRAMITES:&amp;nbsp; &lt;/label&gt;
+				&lt;/p&gt;
+				&lt;table style=&quot;width: 100%; height: 26px;&quot;&gt;
+					&lt;tbody&gt;
+						&lt;tr&gt;
+							&lt;td&gt;
+								&lt;input name=&quot;expediente&quot; type=&quot;text&quot; id=&quot;expediente&quot; placeholder=&quot;N° EXPEDIENTE&quot; /&gt;
+							&lt;/td&gt;
+							&lt;td&gt;
+								&lt;button type=&quot;submit&quot;&gt;&lt;img src=&quot;https://web.satp.gob.pe/consultas/pngtree-vector-search-icon-png-image_4190737.jpg&quot; alt=&quot;&quot; width=&quot;13%&quot; height=&quot;12%&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/button&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+							&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+							&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+						&lt;/tr&gt;
+					&lt;/tbody&gt;
+				&lt;/table&gt;
+			&lt;/form&gt;--&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;wf-columns wf-columns-stack-medium&quot; data-wf-columns=&quot;1&quot;&gt;
+&lt;div class=&quot;wf-column&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/rV63KsbSg18?rel=1&quot; name=&quot;formresponse&quot; width=&quot;100%&quot; height=&quot;600&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; loading=&quot;undefined&quot; allowfullscreen=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;sppb-addon sppb-addon-text-block bg-primary&quot;&gt;
+&lt;h3 class=&quot;sppb-addon-title bg-primary&quot;&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;CONSULTAS EN LINEA &lt;/span&gt;&lt;/h3&gt;
+&lt;div class=&quot;wf-columns wf-columns-stack-medium bg-primary&quot; data-wf-columns=&quot;1&quot;&gt;
+&lt;div class=&quot;wf-column&quot;&gt;&lt;!--&lt;form action=&quot;/consultas/principal_publico.php&quot; method=&quot;post&quot; target=&quot;blank&quot;&gt;
+				&lt;p&gt;
+					&lt;label for=&quot;codigo&quot;&gt;DEUDAS:&lt;/label&gt;
+				&lt;/p&gt;
+				&lt;table style=&quot;width: 100%; height: 26px;&quot;&gt;
+					&lt;tbody&gt;
+						&lt;tr&gt;
+							&lt;td&gt;
+								&lt;input name=&quot;codigo&quot; type=&quot;text&quot; id=&quot;codigo&quot; placeholder=&quot;CODIGO / DNI/ RUC / CE&quot; /&gt;
+							&lt;/td&gt;
+							&lt;td&gt;
+								&lt;button type=&quot;submit&quot;&gt;&lt;img src=&quot;https://web.satp.gob.pe/consultas/pngtree-vector-search-icon-png-image_4190737.jpg&quot; alt=&quot;&quot; width=&quot;13%&quot; height=&quot;12%&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/button&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+					&lt;/tbody&gt;
+				&lt;/table&gt;
+			&lt;/form&gt; --&gt;&lt;/div&gt;
+&lt;div class=&quot;wf-column&quot;&gt;&lt;form action=&quot;/consultas/papeletas_publico.php&quot; method=&quot;post&quot; target=&quot;blank&quot;&gt;
+&lt;p&gt;&lt;label for=&quot;placa&quot;&gt;PAPELETAS:&amp;nbsp;&lt;br /&gt;&lt;/label&gt;&lt;/p&gt;
+&lt;table style=&quot;width: 100%; height: 26px;&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;input name=&quot;placa&quot; type=&quot;text&quot; id=&quot;placa&quot; placeholder=&quot;PLACA&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;button type=&quot;submit&quot;&gt;&lt;img src=&quot;https://web.satp.gob.pe/consultas/pngtree-vector-search-icon-png-image_4190737.jpg&quot; alt=&quot;&quot; width=&quot;13%&quot; height=&quot;12%&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/button&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/form&gt;&lt;/div&gt;
+&lt;div class=&quot;wf-column&quot;&gt;&lt;!--&lt;form action=&quot;/consultas/expediente_publico.php&quot; method=&quot;post&quot; target=&quot;blank&quot;&gt;
+				&lt;p&gt;
+					&lt;label for=&quot;expediente&quot;&gt;TRAMITES:&amp;nbsp; &lt;/label&gt;
+				&lt;/p&gt;
+				&lt;table style=&quot;width: 100%; height: 26px;&quot;&gt;
+					&lt;tbody&gt;
+						&lt;tr&gt;
+							&lt;td&gt;
+								&lt;input name=&quot;expediente&quot; type=&quot;text&quot; id=&quot;expediente&quot; placeholder=&quot;N° EXPEDIENTE&quot; /&gt;
+							&lt;/td&gt;
+							&lt;td&gt;
+								&lt;button type=&quot;submit&quot;&gt;&lt;img src=&quot;https://web.satp.gob.pe/consultas/pngtree-vector-search-icon-png-image_4190737.jpg&quot; alt=&quot;&quot; width=&quot;13%&quot; height=&quot;12%&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/button&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+							&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+							&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+						&lt;/tr&gt;
+					&lt;/tbody&gt;
+				&lt;/table&gt;
+			&lt;/form&gt;--&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;wf-columns wf-columns-stack-medium&quot; data-wf-columns=&quot;1&quot;&gt;
+&lt;div class=&quot;wf-column&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/rV63KsbSg18?rel=1&quot; name=&quot;formresponse&quot; width=&quot;100%&quot; height=&quot;600&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; loading=&quot;undefined&quot; allowfullscreen=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;</content>
+		<category term="SERVICIOS PRESTADOS EN EXCLUSIVIDAD" />
+	</entry>
+	<entry>
+		<title>Constancia de No adeudo de Multas Administrativas</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/274-constancia-de-no-adeudo-de-multas-administrativas"/>
+		<published>2020-11-01T15:02:47-05:00</published>
+		<updated>2020-11-01T15:02:47-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/274-constancia-de-no-adeudo-de-multas-administrativas</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SERVICIOS PRESTADOS EN EXCLUSIVIDAD" />
+	</entry>
+	<entry>
+		<title>Constancia de Registro de Predio, Vehículo o Persona</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/277-constancia-de-registro-de-predio-vehiculo-o-persona"/>
+		<published>2020-09-17T22:01:08-05:00</published>
+		<updated>2020-09-17T22:01:08-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/277-constancia-de-registro-de-predio-vehiculo-o-persona</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SERVICIOS PRESTADOS EN EXCLUSIVIDAD" />
+	</entry>
+	<entry>
+		<title>Duplicado de Comprobante de Pago emitido por el SATP</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/272-duplicado-de-comprobante-de-pago-emitido-por-el-satp"/>
+		<published>2020-09-17T21:58:57-05:00</published>
+		<updated>2020-09-17T21:58:57-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/272-duplicado-de-comprobante-de-pago-emitido-por-el-satp</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SERVICIOS PRESTADOS EN EXCLUSIVIDAD" />
+	</entry>
+	<entry>
+		<title>Constancia de Inafectación o Beneficio Tributario respecto al Impuesto de Alcabala, Impuesto Predial, Patrimonio Vehicular o de Arbitrios Municipales</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/276-constancia-de-inafectacion-o-beneficio-tributario-respecto-al-impuesto-de-alcabala-impuesto-predial-patrimonio-vehicular-o-de-arbitrios-municipales"/>
+		<published>2020-09-17T21:58:10-05:00</published>
+		<updated>2020-09-17T21:58:10-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/276-constancia-de-inafectacion-o-beneficio-tributario-respecto-al-impuesto-de-alcabala-impuesto-predial-patrimonio-vehicular-o-de-arbitrios-municipales</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SERVICIOS PRESTADOS EN EXCLUSIVIDAD" />
+	</entry>
+	<entry>
+		<title>Constancia de No adeudo del Impuesto Predial, Arbitrios, Impuesto de Alcabala, Impuesto Vehicular o Multas Tributarias</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/275-constancia-de-no-adeudo-del-impuesto-predial-arbitrios-impuesto-de-alcabala-impuesto-vehicular-o-multas-tributarias"/>
+		<published>2020-09-17T21:58:10-05:00</published>
+		<updated>2020-09-17T21:58:10-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/275-constancia-de-no-adeudo-del-impuesto-predial-arbitrios-impuesto-de-alcabala-impuesto-vehicular-o-multas-tributarias</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SERVICIOS PRESTADOS EN EXCLUSIVIDAD" />
+	</entry>
+	<entry>
+		<title>Constancia de No adeudo de Papeletas de Tránsito y Actas de Control (Gravamen de multas de tránsito y transporte urbano)</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/273-constancia-de-no-adeudo-de-papeletas-de-transito-y-actas-de-control-gravamen-de-multas-de-transito-y-transporte-urbano"/>
+		<published>2020-09-17T21:57:35-05:00</published>
+		<updated>2020-09-17T21:57:35-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/273-constancia-de-no-adeudo-de-papeletas-de-transito-y-actas-de-control-gravamen-de-multas-de-transito-y-transporte-urbano</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SERVICIOS PRESTADOS EN EXCLUSIVIDAD" />
+	</entry>
+</feed>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/jce/css/content.css?683ab104e87844cbb48985f9379f8c3c" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="es-es">
+	<title type="text">Solicitudes Dirigidas a Coactiva </title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://web.satp.gob.pe"/>
+	<id>https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva</id>
+	<updated>2026-06-30T13:10:49-05:00</updated>
+	<author>
+		<name>SATP</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Exhorto por Embargo en forma de Intervención </title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/123-exhorto-por-embargo-en-forma-de-intervencion"/>
+		<published>2020-09-17T22:10:11-05:00</published>
+		<updated>2020-09-17T22:10:11-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/123-exhorto-por-embargo-en-forma-de-intervencion</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SOLICITUDES DIRIGIDAS A COACTIVA" />
+	</entry>
+	<entry>
+		<title>Exhorto por Embargo en forma de Inscripción</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/122-exhorto-por-embargo-en-forma-de-inscripcion"/>
+		<published>2020-09-17T22:10:00-05:00</published>
+		<updated>2020-09-17T22:10:00-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/122-exhorto-por-embargo-en-forma-de-inscripcion</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SOLICITUDES DIRIGIDAS A COACTIVA" />
+	</entry>
+	<entry>
+		<title>Exhorto por Embargo en forma de Depósito sin Extracción</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/121-exhorto-por-embargo-en-forma-de-deposito-por-extraccion"/>
+		<published>2020-09-17T22:09:46-05:00</published>
+		<updated>2020-09-17T22:09:46-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/121-exhorto-por-embargo-en-forma-de-deposito-por-extraccion</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SOLICITUDES DIRIGIDAS A COACTIVA" />
+	</entry>
+	<entry>
+		<title>Exhorto por Embargo en forma de retención a Terceros</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/120-exhorto-por-embargo-en-forma-de-renecion-a-terceros"/>
+		<published>2020-09-17T22:09:21-05:00</published>
+		<updated>2020-09-17T22:09:21-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/120-exhorto-por-embargo-en-forma-de-renecion-a-terceros</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SOLICITUDES DIRIGIDAS A COACTIVA" />
+	</entry>
+	<entry>
+		<title>Exhorto por Embargo en Forma de Secuestro Conservativo </title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/119-exhorto-por-embargo-en-forma-de-secuestro-conservativo"/>
+		<published>2020-09-17T22:09:01-05:00</published>
+		<updated>2020-09-17T22:09:01-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/119-exhorto-por-embargo-en-forma-de-secuestro-conservativo</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SOLICITUDES DIRIGIDAS A COACTIVA" />
+	</entry>
+	<entry>
+		<title>Exhorto por Notificación personal de la Resolución de Ejecución Coactiva / Exhorto de otras formas de notificaciones adicionales</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/118-exhorto-por-notificacionpersonal-de-la-resolucion-de-ejecucion-coactiva7-exhorto-de-otras-formas-de-notificaciones-adicionales"/>
+		<published>2020-09-17T22:08:42-05:00</published>
+		<updated>2020-09-17T22:08:42-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/118-exhorto-por-notificacionpersonal-de-la-resolucion-de-ejecucion-coactiva7-exhorto-de-otras-formas-de-notificaciones-adicionales</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SOLICITUDES DIRIGIDAS A COACTIVA" />
+	</entry>
+	<entry>
+		<title>Tercería de Propiedad</title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/117-terceria-de-propiedad"/>
+		<published>2020-09-17T22:08:17-05:00</published>
+		<updated>2020-09-17T22:08:17-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/117-terceria-de-propiedad</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<summary type="html">&lt;p&gt;Tercería de Propiedad&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Tercería de Propiedad&lt;/p&gt;
+</content>
+		<category term="SOLICITUDES DIRIGIDAS A COACTIVA" />
+	</entry>
+	<entry>
+		<title>Suspensión de Cobranza Coactiva por Deuda Tributaria y no Tributaria </title>
+		<link rel="alternate" type="text/html" href="https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/116-suspension-de-cobranza-coactiva-por-deuda-tributaria-y-no-tributaria"/>
+		<published>2020-09-17T22:08:03-05:00</published>
+		<updated>2020-09-17T22:08:03-05:00</updated>
+		<id>https://web.satp.gob.pe/tramites/solicitudes-dirigidas-a-coactiva/116-suspension-de-cobranza-coactiva-por-deuda-tributaria-y-no-tributaria</id>
+		<author>
+			<name>webmaster</name>
+		</author>
+		<category term="SOLICITUDES DIRIGIDAS A COACTIVA" />
+	</entry>
+</feed>

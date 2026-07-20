@@ -69,7 +69,6 @@
 <div class="wrapper">
     <div class="top-bar">
         <h1>🔍 Buscar Papeleta / Trámite</h1>
-        <span class="badge-vuln">⚠ VULNERABLE — V4 XSS</span>
     </div>
     <div class="panel">
 
@@ -85,16 +84,14 @@
                     // VULNERABILIDAD: El value también imprime $_GET['q'] sin
                     // codificar, permitiendo: "><script>alert(1)</script>
                     // ═══════════════════════════════════════════════════════
-                    if (isset($_GET['q'])) { echo $_GET['q']; }
+                    if (isset($_GET['q'])) { echo htmlspecialchars($_GET['q'], ENT_QUOTES, 'UTF-8'); }
+                    ///if (isset($_GET['q'])) { echo $_GET['q']; }
+
                 ?>">
             <button type="submit">Buscar</button>
         </form>
 
-        <div class="xss-hint">
-            <strong>⚠ Nota de laboratorio — V4: XSS Reflejado</strong>
-            El resultado de búsqueda se imprime con <code>echo $_GET['q']</code> sin codificar.
-            Prueba: <code>&lt;script&gt;alert('XSS-OK')&lt;/script&gt;</code>
-        </div>
+
 
 <?php
 if (isset($_GET['q']) && $_GET['q'] !== '') {
@@ -115,12 +112,43 @@ if (isset($_GET['q']) && $_GET['q'] !== '') {
     // CORRECCIÓN (no aplicada aquí intencionalmente):
     //   echo htmlspecialchars($_GET['q'], ENT_QUOTES | ENT_HTML5, 'UTF-8');
     // ═══════════════════════════════════════════════════════════════
-    echo $_GET['q'];   // ← PUNTO VULNERABLE PRINCIPAL
+    echo htmlspecialchars($_GET['q'], ENT_QUOTES, 'UTF-8');
+
+    //echo $_GET['q'];   // ← PUNTO VULNERABLE PRINCIPAL
 
     echo "</div>";
 
 } else {
     echo "<p style='color:#888;font-size:13px;margin-top:10px;'>Ingrese el número de papeleta, placa o trámite.</p>";
+}
+// XSS ALMACENADO: Conexión a BD y guardado del historial
+$conn = new mysqli('sat_db', 'appuser', 'apppassword', 'sat_lab');
+if (!$conn->connect_error) {
+    if (isset($_GET['q']) && $_GET['q'] !== '') {
+        $stmt = $conn->prepare("INSERT INTO historial_busquedas (busqueda) VALUES (?)");
+        $stmt->bind_param("s", $_GET['q']);
+        $stmt->execute();
+    }
+    
+    echo "<div style='margin-top:30px; padding-top:20px; border-top:1px solid #c0d6e8;'>";
+    echo "<p class='result-label' style='color:#d35400; font-weight:bold;'>Últimas búsquedas realizadas (Historial Público):</p>";
+    
+    $res = $conn->query("SELECT busqueda FROM historial_busquedas ORDER BY id DESC LIMIT 5");
+    if ($res && $res->num_rows > 0) {
+        while ($row = $res->fetch_assoc()) {
+            echo "<div style='background:#fdfefe; padding:10px; border:1px solid #ddd; border-left: 3px solid #e74c3c; margin-bottom:8px; font-size:13px; color:#555;'>";
+            // ═══════════════════════════════════════════════════════════════
+            // PUNTO VULNERABLE: XSS ALMACENADO
+            // Se imprime directamente de la base de datos sin sanitizar
+            // ═══════════════════════════════════════════════════════════════
+            echo htmlspecialchars($row['busqueda'], ENT_QUOTES, 'UTF-8');
+            //echo $row['busqueda'];
+            echo "</div>";
+        }
+    } else {
+        echo "<p style='font-size:12px; color:#888;'>No hay búsquedas recientes.</p>";
+    }
+    echo "</div>";
 }
 ?>
         <a href="javascript:history.back()" class="btn-back">← Volver</a>

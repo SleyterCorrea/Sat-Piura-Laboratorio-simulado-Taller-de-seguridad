@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/plugins/system/jce/css/content.css?683ab104e87844cbb48985f9379f8c3c" type="text/css"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Servicios Prestados en Exclusividad</title>
+		<description><![CDATA[]]></description>
+		<link>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad</link>
+		<lastBuildDate>Tue, 30 Jun 2026 13:10:46 -0500</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad?format=feed&amp;type=rss"/>
+		<language>es-es</language>
+		<item>
+			<title>CONSULTA EN LINEA</title>
+			<link>https://web.satp.gob.pe/servicios/consulta-en-linea</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/servicios/consulta-en-linea</guid>
+			<description><![CDATA[<div class="sppb-addon sppb-addon-text-block bg-primary">
+<h3 class="sppb-addon-title bg-primary"><span style="color: #ffffff;">CONSULTAS EN LINEA </span></h3>
+<div class="wf-columns wf-columns-stack-medium bg-primary" data-wf-columns="1">
+<div class="wf-column"><!--<form action="/consultas/principal_publico.php" method="post" target="blank">
+				<p>
+					<label for="codigo">DEUDAS:</label>
+				</p>
+				<table style="width: 100%; height: 26px;">
+					<tbody>
+						<tr>
+							<td>
+								<input name="codigo" type="text" id="codigo" placeholder="CODIGO / DNI/ RUC / CE" />
+							</td>
+							<td>
+								<button type="submit"><img src="https://web.satp.gob.pe/consultas/pngtree-vector-search-icon-png-image_4190737.jpg" alt="" width="13%" height="12%" style="display: block; margin-left: auto; margin-right: auto;" /></button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form> --></div>
+<div class="wf-column"><form action="/consultas/papeletas_publico.php" method="post" target="blank">
+<p><label for="placa">PAPELETAS:&nbsp;<br /></label></p>
+<table style="width: 100%; height: 26px;">
+<tbody>
+<tr>
+<td><input name="placa" type="text" id="placa" placeholder="PLACA" /></td>
+<td><button type="submit"><img src="https://web.satp.gob.pe/consultas/pngtree-vector-search-icon-png-image_4190737.jpg" alt="" width="13%" height="12%" style="display: block; margin-left: auto; margin-right: auto;" /></button></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</form></div>
+<div class="wf-column"><!--<form action="/consultas/expediente_publico.php" method="post" target="blank">
+				<p>
+					<label for="expediente">TRAMITES:&nbsp; </label>
+				</p>
+				<table style="width: 100%; height: 26px;">
+					<tbody>
+						<tr>
+							<td>
+								<input name="expediente" type="text" id="expediente" placeholder="N° EXPEDIENTE" />
+							</td>
+							<td>
+								<button type="submit"><img src="https://web.satp.gob.pe/consultas/pngtree-vector-search-icon-png-image_4190737.jpg" alt="" width="13%" height="12%" style="display: block; margin-left: auto; margin-right: auto;" /></button>
+							</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>--></div>
+</div>
+</div>
+<div class="wf-columns wf-columns-stack-medium" data-wf-columns="1">
+<div class="wf-column"><iframe src="https://www.youtube.com/embed/rV63KsbSg18?rel=1" name="formresponse" width="100%" height="600" style="display: block; margin-left: auto; margin-right: auto;" loading="undefined" allowfullscreen="true" frameborder="0"></iframe></div>
+</div>]]></description>
+			<category>SERVICIOS PRESTADOS EN EXCLUSIVIDAD</category>
+			<pubDate>Fri, 13 Oct 2023 12:04:02 -0500</pubDate>
+		</item>
+		<item>
+			<title>Constancia de No adeudo de Multas Administrativas</title>
+			<link>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/274-constancia-de-no-adeudo-de-multas-administrativas</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/274-constancia-de-no-adeudo-de-multas-administrativas</guid>
+			<description><![CDATA[]]></description>
+			<category>SERVICIOS PRESTADOS EN EXCLUSIVIDAD</category>
+			<pubDate>Sun, 01 Nov 2020 15:02:47 -0500</pubDate>
+		</item>
+		<item>
+			<title>Constancia de Registro de Predio, Vehículo o Persona</title>
+			<link>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/277-constancia-de-registro-de-predio-vehiculo-o-persona</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/277-constancia-de-registro-de-predio-vehiculo-o-persona</guid>
+			<description><![CDATA[]]></description>
+			<category>SERVICIOS PRESTADOS EN EXCLUSIVIDAD</category>
+			<pubDate>Thu, 17 Sep 2020 22:01:08 -0500</pubDate>
+		</item>
+		<item>
+			<title>Duplicado de Comprobante de Pago emitido por el SATP</title>
+			<link>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/272-duplicado-de-comprobante-de-pago-emitido-por-el-satp</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/272-duplicado-de-comprobante-de-pago-emitido-por-el-satp</guid>
+			<description><![CDATA[]]></description>
+			<category>SERVICIOS PRESTADOS EN EXCLUSIVIDAD</category>
+			<pubDate>Thu, 17 Sep 2020 21:58:57 -0500</pubDate>
+		</item>
+		<item>
+			<title>Constancia de Inafectación o Beneficio Tributario respecto al Impuesto de Alcabala, Impuesto Predial, Patrimonio Vehicular o de Arbitrios Municipales</title>
+			<link>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/276-constancia-de-inafectacion-o-beneficio-tributario-respecto-al-impuesto-de-alcabala-impuesto-predial-patrimonio-vehicular-o-de-arbitrios-municipales</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/276-constancia-de-inafectacion-o-beneficio-tributario-respecto-al-impuesto-de-alcabala-impuesto-predial-patrimonio-vehicular-o-de-arbitrios-municipales</guid>
+			<description><![CDATA[]]></description>
+			<category>SERVICIOS PRESTADOS EN EXCLUSIVIDAD</category>
+			<pubDate>Thu, 17 Sep 2020 21:58:10 -0500</pubDate>
+		</item>
+		<item>
+			<title>Constancia de No adeudo del Impuesto Predial, Arbitrios, Impuesto de Alcabala, Impuesto Vehicular o Multas Tributarias</title>
+			<link>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/275-constancia-de-no-adeudo-del-impuesto-predial-arbitrios-impuesto-de-alcabala-impuesto-vehicular-o-multas-tributarias</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/275-constancia-de-no-adeudo-del-impuesto-predial-arbitrios-impuesto-de-alcabala-impuesto-vehicular-o-multas-tributarias</guid>
+			<description><![CDATA[]]></description>
+			<category>SERVICIOS PRESTADOS EN EXCLUSIVIDAD</category>
+			<pubDate>Thu, 17 Sep 2020 21:58:10 -0500</pubDate>
+		</item>
+		<item>
+			<title>Constancia de No adeudo de Papeletas de Tránsito y Actas de Control (Gravamen de multas de tránsito y transporte urbano)</title>
+			<link>https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/273-constancia-de-no-adeudo-de-papeletas-de-transito-y-actas-de-control-gravamen-de-multas-de-transito-y-transporte-urbano</link>
+			<guid isPermaLink="true">https://web.satp.gob.pe/tramites/servicios-prestado-en-exclusividad/273-constancia-de-no-adeudo-de-papeletas-de-transito-y-actas-de-control-gravamen-de-multas-de-transito-y-transporte-urbano</guid>
+			<description><![CDATA[]]></description>
+			<category>SERVICIOS PRESTADOS EN EXCLUSIVIDAD</category>
+			<pubDate>Thu, 17 Sep 2020 21:57:35 -0500</pubDate>
+		</item>
+	</channel>
+</rss>
