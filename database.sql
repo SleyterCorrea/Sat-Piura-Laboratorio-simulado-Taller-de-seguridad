@@ -106,3 +106,12 @@ INSERT INTO deudas (id_contribuyente, tipo_tributo, periodo, monto, estado, fech
 ('10293847', 'Arbitrios Municipales',   '2025-T1', 220.00, 'Pendiente','2025-03-15'),
 ('10293847', 'Impuesto Vehicular',      '2025',    275.50, 'Pendiente','2025-04-01'),
 ('10293847', 'Arbitrios Municipales',   '2024-T4', 198.00, 'Pagado',   '2024-11-20');
+
+-- ============================================================
+-- TABLA: historial_busquedas
+-- Almacena las consultas para simular XSS Almacenado
+-- ============================================================
+CREATE TABLE IF NOT EXISTS historial_busquedas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    busqueda TEXT NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
